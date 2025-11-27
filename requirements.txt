@@ -1,0 +1,41 @@
+# Multi-Agent Research Assistant Dependencies
+# Install with: pip install -r requirements.txt
+
+# ============================================================
+# Core Dependencies
+# ============================================================
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# ============================================================
+# LLM Providers (install the one you need)
+# ============================================================
+# OpenAI (GPT-4, GPT-4o-mini, etc.)
+langchain-openai>=0.2.0
+
+# Anthropic Claude (optional)
+# pip install langchain-anthropic
+# langchain-anthropic>=0.2.0
+
+# Ollama - Local models (optional)
+# pip install langchain-ollama
+# langchain-ollama>=0.2.0
+
+# ============================================================
+# Tools
+# ============================================================
+# Web Search
+ddgs>=6.0.0
+
+# ============================================================
+# Utilities
+# ============================================================
+python-dotenv>=1.0.0
+typing_extensions>=4.0.0
+
+# ============================================================
+# Optional: RAG with ChromaDB
+# ============================================================
+# pip install chromadb
+# chromadb>=0.4.0
