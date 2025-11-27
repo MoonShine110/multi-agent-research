@@ -328,6 +328,10 @@ User reviews and ownership experiences reveal that the Gixxer SF 250 excels in c
 [Thread 1] 🔍 Enter topic or command:
 ```
 
+## Langsmith Trace (if enabled) 
+
+<img width="1278" height="1275" alt="image" src="https://github.com/user-attachments/assets/2ea82193-2c75-4504-94a5-82db2b6f3e07" />
+
 ## 🔧 Troubleshooting
 
 ### "Module not found" errors
