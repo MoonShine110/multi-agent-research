@@ -132,8 +132,8 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY=lsv2_pt_your-key-here
 LANGCHAIN_PROJECT=multi-agent-research
 ```
-Get your key at: https://smith.langchain.com
-Do not forget to remove the .example extension 
+Get your key at: https://smith.langchain.com 
+. Do not forget to remove the .example extension 
 ## 📖 Usage
 
 ### Interactive Mode
