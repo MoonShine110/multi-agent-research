@@ -231,6 +231,49 @@ multi-agent-research/
 - **Quality Control**: Minimum findings threshold, iteration limits
 - **Source Scoring**: Prioritizes authoritative sources (.gov, .edu, etc.)
 - **Output Sanitization**: Removes potentially harmful content
+  
+## Example Input
+
+```
+(multirag) E:\project\multi-agent-research>python main.py
+✅ LLM Provider: OPENAI (gpt-4o-mini)
+🤖 Using OpenAI: gpt-4o-mini
+🤖 Using OpenAI: gpt-4o-mini
+   📁 Database initialized
+📊 LangSmith tracing ENABLED (Project: langchain-course)
+   View traces at: https://smith.langchain.com
+
+🔍 All interactions will be traced to LangSmith
+
+
+    ╔══════════════════════════════════════════════════════════╗
+    ║     🔬 Multi-Agent Research Assistant - Interactive      ║
+    ╠══════════════════════════════════════════════════════════╣
+    ║  Research Commands:                                      ║
+    ║    - Type your research topic/question                   ║
+    ║    - 'more' - Get more details on last research          ║
+    ║    - 'insights' - Show key insights again                ║
+    ║    - 'sources' - List all sources found                  ║
+    ║    - 'export' - Save last research to file               ║
+    ║                                                          ║
+    ║  Thread Commands:                                        ║
+    ║    - 'threads' - List all conversation threads           ║
+    ║    - 'new' or 'new <name>' - Create a new thread         ║
+    ║    - 'switch <number>' - Switch to a different thread    ║
+    ║    - 'rename <name>' - Rename current thread             ║
+    ║    - 'history' - Show current thread's history           ║
+    ║                                                          ║
+    ║  Other:                                                  ║
+    ║    - 'graph' - Show the workflow graph                   ║
+    ║    - 'help' - Show this help message                     ║
+    ║    - 'quit' or 'exit' - Exit the program                 ║
+    ╚══════════════════════════════════════════════════════════╝
+
+
+📌 Current Thread: Thread 1 (ID: af5de548...)
+
+[Thread 1] 🔍 Enter topic or command: Tell me about gixxersf250
+```
 
 ## 📊 Example Output
 
